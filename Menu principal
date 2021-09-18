@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<header class= "cont-header" id="cont-header"></header>
+<div class="logo-titulo" id="logo-titulo">
+<style type= "text/css">
+	h1{font-siza: 12pt;font-family:popins;}
+	h1{color:blue;}
+	h1 {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+	</style>
+<h1 class= "e-h1" id="e-h1"> Tienda de artesanias</h1>
+<div class="logo" id="logo"></div>
+
+<hr>
+<style>
+a{
+text-decoration: none;
+color: # rgba (255, 0, 0, 0,2);
+font-weight: 300;
+margin-top: 100px;
+font-family: popins;
+
+}</style>
+<style>
+li{
+display:inline;
+margin-right:70px;
+margin-left: 70px;
+
+
+}
+</style>
+<nav class= "menu" id= "menu">
+          <ul>
+           <li><a href= "#"> Usuarios</a></li>
+           <li><a href= "#"> Clientes</a></li>
+           <li><a href= "#"> Proveedores</a></li>
+           <li><a href= "#"> Productos</a></li>
+           <li><a href= "#"> Ventas</a></li>
+           <li><a href= "#"> Reportes</a></li>
+           </ul>
+        </nav></div>
+</body>
+</html>
